@@ -1,2 +1,2 @@
 # checkNetCon
-html and JavaScript to check for internet connectivity
+Website network connectivity services allow us to check the network connectivity information of the device. It is very important to check the internet connection of the device while performing the task which is based on internet service such as fetching data from the server (internet) or writing data to the server so this repo is very useful for you it will track you internet connection continuously and alert you when you lost your internet connection and when it is connected.
