@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+
+    <title>Connection</title>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript">
+    
+
 // Check internet connectivity using navigator.onLine
 function checkInternetConnectivity() {
 
@@ -34,7 +48,7 @@ checkInternetConnectivity();
         text: ''+message,
         icon: 'success',
         confirmButtonText: 'OK',
-        timer: 1500,
+        timer: 2000,
 
     });
 
@@ -47,10 +61,15 @@ checkInternetConnectivity();
         text: ''+message,
         icon: 'error',
         confirmButtonText: 'OK',
-        timer: 1500,
+        timer: 2000,
         
 
     });
 }
 
 //https://sweetalert.js.org/guides/
+
+
+</script>
+</body>
+</html>
